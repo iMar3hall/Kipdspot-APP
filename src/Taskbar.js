@@ -14,7 +14,7 @@ const TaskBar = ({ navigation }) => {
         <Icon name="compass-outline" size={30} color="#000" />
       </TouchableOpacity>
       
-      <TouchableOpacity onPress={() => navigation.navigate('Favorites')}>
+      <TouchableOpacity onPress={() => navigation.navigate('Favourites')}>
         <Icon name="heart-outline" size={30} color="#000" />
       </TouchableOpacity>
       
